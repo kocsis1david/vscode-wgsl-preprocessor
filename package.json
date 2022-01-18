@@ -1,0 +1,19 @@
+{
+    "name": "vscode-wgsl-preprocessor",
+    "displayName": "vscode-wgsl-preprocessor",
+    "description": "Extends the WGSL syntax highlighting with preprocessor directives from GLSL",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "grammars": [{
+            "path": "./syntaxes/wgsl-preprocessor.tmLanguage.json",
+            "scopeName": "source.wgsl-preprocessor",
+            "injectTo": ["source.wgsl"]
+        }]
+    }
+}
